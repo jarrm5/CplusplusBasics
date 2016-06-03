@@ -1,0 +1,4 @@
+6/2/16
+Write a program that inputs an integer that represents a length of time in seconds.
+The program should then output the number of hours, minutes, and seconds that corresponds to the seconds entered.
+IE, 50391 is 13 hours, 59 minutes and 51 seconds.

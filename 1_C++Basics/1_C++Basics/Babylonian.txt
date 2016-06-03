@@ -1,0 +1,10 @@
+6/3/16
+The babylonian algorithm to compute a square root is..
+1. Make a guess at the answer (IE n/2 is your initial guess)
+2. Compute r = n/guess
+3. Set guess = (guess + r)/2
+4. Repeat step 2 for as many iterations as necessary.
+   The more steps 2 and 3 are repeated, the closer guess will become to square root of n.
+Write a program that inputs a double for n, iterates through this algorithm 5 times, and 
+outputs the answer as a double to two decimal places.
+The answer will be most accurate for small values of n.
