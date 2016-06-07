@@ -1,4 +1,5 @@
 #include "SecondsConverter.h"
+#include "BabylonianAlgorithm.h"
 #include <iostream>
 
 using namespace std;
@@ -22,7 +23,7 @@ int main(){
 		break;
 	case 2:
 		cout << endl;
-		cout << "COMING SOON." << endl;
+		run_ba();
 		break;
 	default:
 		cout << choice << " is invalid." << endl;
@@ -43,4 +44,12 @@ void run_sc(){
 	copy -= (minutes * 60);
 
 	print(nbrSeconds, hours, minutes, copy);
+}
+void run_ba(){
+
+	double n = get_n();
+
+	double result = baby_alg(n);
+
+	cout << "The square root of " << n << " is " << result << "." << endl;
 }

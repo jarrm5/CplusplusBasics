@@ -5,6 +5,9 @@ using namespace std;
 
 int get_seconds(){
 
+	cout << "SECONDS CONVERTER" << endl << endl;
+	cout << "Converts seconds into hours, minutes, seconds" << endl << endl;
+
 	int nbrSeconds;
 
 	do

@@ -1,4 +1,4 @@
-6/3/16
+6/6/16
 The babylonian algorithm to compute a square root is..
 1. Make a guess at the answer (IE n/2 is your initial guess)
 2. Compute r = n/guess
