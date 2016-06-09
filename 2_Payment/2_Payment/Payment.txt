@@ -1,0 +1,10 @@
+6/8/16
+You have just purchased a stereo system that cost $1000 on the following credit plan:
+No down payment, an interest rate of 18% per year (1.5% per month), and monthly payments of $50.
+The monthly payment of $50 is used to pay the interest, and whatever is left is used to pay part
+of the remaining debt (you pay 1.5% of $1000 in interest on the first month - $15 in interest).  
+The remaining $35 is deducted from your debt, which leaves you with a debt of $965. The next month you pay
+interest of 1.5% of $965, which is $14.84. You can then deduct $35.52 ($50 - $14.84) from the amount owed.
+
+The program should tell how many months it will take to pay off the loan, as well as the total amount of
+interest paid over the life of the loan.
